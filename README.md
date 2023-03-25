@@ -29,23 +29,21 @@ Used:
 * 19963 rows 
 * columns:
 * 
-| Initial Column | Comments | New Column |
+| Initial Column | Description | 
 | --- | --- | --- |
-| User | User is just an index not an ID | None : Dropped |
-| Card | No further infos about this column | Card |
-| Year | Added to Date column | Date |
-| Month | Nothing to edit | Month |
-| Day | Added to Date column | Date |
-| Time | Binned to 4 categories and added to Time Period | Time & Time_Period |
-| Amount | Binned to 3 categories | Amount & Amount_Range |
-| Use chip | Nothing to edit | Use Chip |
-| Merchant name | Too many unique values. | None:Dropped |
-| Merchant City | Changing Merchant City to Merchant Type : Online or In-person | Merchant Type |
-| Merchant State | Binned to 4 main catgories | Merchant_State_grouped |
-| Zip | Too many unique values, gives same indication as Merchant City | None: Dropped |
-| MCC | Changing MCC to MCC Category: Check for each MCC number Category name and group same categories fields together | MCC_Category |
-| Errors? | Binned | Errors? |
-| Is Fraud? | Main target | Is Fraud? |
+| brewery_id | Unique identification of the brewery | 
+| brewery_name | Name of the brewery |
+| review_time | Unique time when review was made |
+| review_overall | Based on|all factors, the final score |
+| review_aroma | Rating based on how the beer smells |
+| review_appearance | Rating based on how the beer looks | 
+| review_profilename | Reviewer’s user ID |
+| beer_style | Category of the beer |
+| review_palate | Rating based on how the beer interacts with the|  palate| || |
+| review_taste | Rating based on how the beer actually tastes|  |
+| beer_na|e | Name of the beer |
+| beer_abv | Alcohol by volume |
+| beer_beerid | Unique beer identification
 
  
 ### Data Wrangling and Cleaning
