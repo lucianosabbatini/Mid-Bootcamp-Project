@@ -41,7 +41,7 @@ Used:
 | beer_style | Category of the beer |
 | review_palate | Rating based on how the beer interacts with the palate |
 | review_taste | Rating based on how the beer actually tastes|  |
-| beer_na|e | Name of the beer |
+| beer_name | Name of the beer |
 | beer_abv | Alcohol by volume |
 | beer_beerid | Unique beer identification |
 
