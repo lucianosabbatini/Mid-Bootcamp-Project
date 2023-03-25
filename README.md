@@ -30,7 +30,7 @@ Used:
 * columns:
 * 
 | Initial Column | Description | 
-| --- | --- | --- |
+| --- | --- |
 | brewery_id | Unique identification of the brewery | 
 | brewery_name | Name of the brewery |
 | review_time | Unique time when review was made |
@@ -43,7 +43,7 @@ Used:
 | review_taste | Rating based on how the beer actually tastes|  |
 | beer_na|e | Name of the beer |
 | beer_abv | Alcohol by volume |
-| beer_beerid | Unique beer identification
+| beer_beerid | Unique beer identification |
 
  
 ### Data Wrangling and Cleaning
