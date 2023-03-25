@@ -39,7 +39,7 @@ Used:
 | review_appearance | Rating based on how the beer looks | 
 | review_profilename | Reviewer’s user ID |
 | beer_style | Category of the beer |
-| review_palate | Rating based on how the beer interacts with the|  palate| || |
+| review_palate | Rating based on how the beer interacts with the palate |
 | review_taste | Rating based on how the beer actually tastes|  |
 | beer_na|e | Name of the beer |
 | beer_abv | Alcohol by volume |
@@ -52,7 +52,7 @@ Used:
 - Deleting  columns with identifier id on it 
 - Converting UNIX time into datetime
 - Analysing unique features of the dataset 
-- Analysing the relations between the sensorial factors and oberall ratings ratings
+- Analysing the relations between the sensorial factors and overall ratings ratings
 - Creating plots for better visualization
 - Creating new columns
 - Creating Step conclusions for each part of the analysis
