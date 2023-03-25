@@ -25,10 +25,10 @@ Used:
 * Dataset is about the ratings, from 1 to 5, of beer tasting reviews:
 	* Dataset source: https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
   
-* 15 columns 
-* 19963 rows 
+* 14 columns 
+* 1586614 rows 
 * columns:
-* 
+ 
 | Initial Column | Description | 
 | --- | --- |
 | brewery_id | Unique identification of the brewery | 
@@ -48,12 +48,15 @@ Used:
  
 ### Data Wrangling and Cleaning
   
-- Overall Data description
-- Deleting  columns with hight unique values: User,Merchant Name,Zip 
-- Looking for outliers column by column 
-- Dealing with Nan Values for each column
-- Creating plots for each column to check where most fraudulent transactions occured
-- Checking for correlation with target feature
+- Dropping rows of nulls, filling nulls
+- Deleting  columns with identifier id on it 
+- Conerting UNIX time into datetime.
+- Analysing unique features of the dataset 
+- Analysing the relatins between the sensorial factors and oberall ratings ratings.
+- Creating plots for better visualization
+- Creating Step conclusions for each part of the analysis.
+- Building a recommendation system
+- Testing the model
 
 ## Data Analysis
 * Use [tableau][(https://public.tableau.com/app/profile/omezzine.meysour/viz/Creditcardfraudanalysis_16794785656020/Fraudsbyamount?publish=yes)]
