@@ -50,13 +50,14 @@ Used:
   
 - Dropping rows of nulls, filling nulls
 - Deleting  columns with identifier id on it 
-- Conerting UNIX time into datetime.
+- Converting UNIX time into datetime
 - Analysing unique features of the dataset 
-- Analysing the relatins between the sensorial factors and oberall ratings ratings.
+- Analysing the relations between the sensorial factors and oberall ratings ratings
 - Creating plots for better visualization
-- Creating Step conclusions for each part of the analysis.
+- Creating new columns
+- Creating Step conclusions for each part of the analysis
 - Building a recommendation system
-- Testing the model
+- Testing the model.
 
 ## Data Analysis
 * Use [tableau][(https://public.tableau.com/app/profile/omezzine.meysour/viz/Creditcardfraudanalysis_16794785656020/Fraudsbyamount?publish=yes)]
