@@ -74,5 +74,5 @@ Used Python and Tableau to visualize my overall data.
 
 ## Conclusions
 
-1) Our dataset features were insufficient to create a usefull model to predict overall ratings. The ratings are indivudual unique caracheteristics and in order to build a machine learning model the dataset would need to have the components of each beer for instance.
-2) Through confidence intervals on the overall ratings on beer styles, we were able to classify and have a reliable system to recommend beer styles.
+1) Our dataset features were insufficient to create a usefull model to predict overall ratings. The ratings are from indivudual unique personal caracheteristics and in order to build a machine learning model the dataset would need to have the inherits components of the whole beer proccess.
+2) Through building confidence intervals of the overall ratings on beer styles, we were able to classify and have a reliable system to recommend beer styles.
