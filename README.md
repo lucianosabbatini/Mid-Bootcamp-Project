@@ -1,13 +1,14 @@
 # Mid-Bootcamp-Project
-Dataset source: https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
 
-# Credit-Card-Fraud-Detection-Project
-**Meysour Omezzine**  
-**IronHack, Paris 21 Mar 2023**
 
-## Overview
+# Beer Reviews Ratings
+**Luciano Sabbatini**  
+**IronHack, Germany 24 Mar 2023**
 
-* How we can Banks/Credit card companies predict fraudulent credit card transactions?  
+## Goals
+
+* To create a model to predict overall score. 
+* Create a standard to rank the beer styles scores in order to be able to recommend beer styles.
 
 Used:
 
@@ -16,13 +17,13 @@ Used:
 	* Data visualization
 	* Jupyter Notebook
 	* Tableau
-	* Machine Learning (Logistic Regression)
+	* Machine Learning (Linear Regression)
   
   ## Data Preparation
 
 ### Overview: 
-* Data is about Credit card transactions.
-	* [dataset](https://www.kaggle.com/datasets/ealtman2019/credit-card-transactions)
+* Dataset is about the ratings, from 1 to 5, of beer tasting reviews:
+	* Dataset source: https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
   
 * 15 columns 
 * 19963 rows 
@@ -56,28 +57,20 @@ Used:
 - Creating plots for each column to check where most fraudulent transactions occured
 - Checking for correlation with target feature
 
-
-### Data Storage
-
-* Dump your data as `.csv` file. 
-
 ## Data Analysis
-* Use [tableau](https://public.tableau.com/app/profile/omezzine.meysour/viz/Creditcardfraudanalysis_16794785656020/Fraudsbyamount?publish=yes) to analyze 
+* Use [tableau][(https://public.tableau.com/app/profile/omezzine.meysour/viz/Creditcardfraudanalysis_16794785656020/Fraudsbyamount?publish=yes)]
 
 
 ### Data Exploration and Visualization
-Used Tableau to visualize my overall data.
+Used Python and Tableau to visualize my overall data.
 
 ### Model Training and Evaluation
 - Define predictors and target values (X, y)
 - Standard scaling for numericals : for Train and Test set
-- OneHotEncoding for categoricals : for Train and Test set
-- Balancing data : Oversampling our target values in our Train set. 
-- Models : LogisticRegression & KNN neighbors
+- Models : LinearRegression, MLPRegressor & KNN neighbors
 - Compared accuracy 
-- Confusion Matrix
 
 ## Conclusion
 
-- Based on our Recall rate, our model can alert us on fraud transactions where transactions are actually frauds, how ever based on the confusion matrix it predicted some false positives. 
-- Our model had an accuracy of 89%. 
+1) Our dataset features were insufficient to create a usefull model to predict overall ratings. The ratings are indivudual unique caracheteristics and in order to build a machine learning model the dataset would need to have the components of each beer for instance.
+2) Through confidence intervals on the overall ratings on beer styles, we were able to classify and have a reliable system to recommend beer styles.
