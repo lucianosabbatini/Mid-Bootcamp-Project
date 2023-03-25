@@ -60,7 +60,7 @@ Used:
 - Testing the model.
 
 ## Data Analysis
-* Use [tableau][(https://public.tableau.com/app/profile/omezzine.meysour/viz/Creditcardfraudanalysis_16794785656020/Fraudsbyamount?publish=yes)]
+* Use [tableau][(https://public.tableau.com/app/profile/luciano.sabbatini/viz/beerproject_visualization/Dashboard1?publish=yes)]
 
 
 ### Data Exploration and Visualization
